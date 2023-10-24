@@ -1,10 +1,13 @@
 # Blockchain : Pharmaceutical SupplyChain
+
 This project showcases the journey of Medicine on blockchain.
 
 The Pharmaceutical supply chain is the sequence of activities and process to bring raw drugs and matrials from supplier(farms) to processed medicine in Pharm.
 
 #### Problems in Exixting System
+
 ---
+
 - Shipment visibility
 - Expiration
 - Slow Process and Error prone paper work
@@ -12,7 +15,9 @@ The Pharmaceutical supply chain is the sequence of activities and process to bri
 - Lack of coordination
 
 #### What we are providing
+
 ---
+
 - Accurate information across the entire chain at any point and at any location
 - Instant access to real-time updates and alerts if issues are detected
 - Visibility of all handovers in the supply chain
@@ -21,11 +26,15 @@ The Pharmaceutical supply chain is the sequence of activities and process to bri
 - Reduce paper work and Speedup process
 
 #### Application Workflow Diagram
+
 ---
+
 ![](https://raw.githubusercontent.com/kamalkishorm/Blockchain_SupplyChain/master/assets/flow/Blockchain_Pharmaceutical_SupplyChain.png)
 
 #### Roles
+
 ---
+
 1. Admin
 2. Supplier
 3. Transfporter
@@ -43,7 +52,9 @@ The Pharmaceutical supply chain is the sequence of activities and process to bri
 **Pharma :** Pharma is reponsible to provide right medicine to customer as per doctor priscribed and update medicine status.
 
 #### Tools and Technologies
+
 ---
+
 - Solidity (Ethereum Smart Contract Language)
 - Metamask (Ethereum wallet)
 - Ropsten test network ( use ropsten faucet to get ethers on ropsten network )
@@ -53,7 +64,9 @@ The Pharmaceutical supply chain is the sequence of activities and process to bri
 - AngularJS
 
 #### Prerequisites
+
 ---
+
 - Nodejs v8.12 or above
 - Truffle v5.0.0 (core: 5.0.0) (http://truffleframework.com/docs/getting_started/installation)
 - Solidity v0.5.0
@@ -61,13 +74,16 @@ The Pharmaceutical supply chain is the sequence of activities and process to bri
 - Ganache (https://truffleframework.com/docs/ganache/quickstart)
 
 #### Contract Deployment Steps:
+
 ---
+
 **Setting up Ethereum Smart Contract:**
 
 ```
 git clone https://github.com/kamalkishorm/Blockchain_SupplyChain.git
 cd Blockchain_SupplyChain/
 ```
+
 **Update truffle.js **
 
 ```
@@ -93,6 +109,7 @@ module.exports =
 	}
 };
 ```
+
 Go to your project folder in terminal then execute :
 
 ```
@@ -100,8 +117,11 @@ rm -rf build/
 truffle compile
 truffle migrate --network ropsten reset
 ```
+
 **Please note:**
+
 1. After successfully deployment you will get response in bash terminal like below
+
 ```
 Starting migrations...
 ======================
@@ -163,7 +183,9 @@ Summary
 ```
 
 #### Blockchain SupplyChain UI:
+
 ---
+
 **Setting up SupplyChain UI:**
 
 ```
